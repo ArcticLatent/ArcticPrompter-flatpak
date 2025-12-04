@@ -6,7 +6,7 @@
 [![Flatpak](https://img.shields.io/badge/Flatpak-App%20Bundle-4895EF?logo=flatpak&logoColor=white)](#-%F0%9F%9B%A0-requirements)
 [![Status](https://img.shields.io/badge/Status-Active-success)](#-need-help)
 
-A local-first **prompt crafting studio** for AI image and video generation. It runs on your Ollama backend and ships quantized Qwen2.5 and Llama 3.2 text models for fast, hardware-friendly prompt ideation. You can also feed in an image and let Qwen2.5-VL draft prompts, all while keeping an eye on your thermal monitor to stay within safe temps.
+A local-first **prompt crafting studio** for AI image and video generation. It runs on your Ollama backend and ships quantized Qwen2.5 and Llama 3.2 text models for fast, hardware-friendly prompt ideation. You can also feed in an image and let Qwen2.5-VL draft prompts.
 
 ---
 
@@ -22,6 +22,7 @@ Arctic Prompter keeps everything on-device: Ollama handles the inference, quanti
 - 🖼️ **Image-to-prompt with Qwen2.5-VL** to convert reference images into ready-to-tweak prompts.
 - 🎬 **Image + video prompt flows** with guidance to keep outputs consistent across modalities.
 - 🌡️ **Thermal monitor** that surfaces CPU/GPU temps so you know when to pause or switch models.
+- 🕒 **Keep-alive toggle** to hold a model in memory for long sessions; turn it off if you’re switching models frequently.
 - ⚡ **Hardware-friendly defaults**—all bundled models are quantized to run smoothly on most machines.
 
 ---
@@ -38,7 +39,7 @@ Arctic Prompter keeps everything on-device: Ollama handles the inference, quanti
 
 ## 🛠 Requirements
 
-- Active internet connection (for pulling assets).
+- Active internet connection (for pulling LLM models and downloading the Ollama backend).
 - Flatpak runtime on your system:
 
   ```bash
@@ -59,9 +60,7 @@ Arctic Prompter keeps everything on-device: Ollama handles the inference, quanti
 ## 💡 Usage Tips
 
 - Start with Qwen2.5 for concise prompts; switch to Llama 3.2 when you want more verbose phrasing.
-- Use Qwen2.5-VL when you have a reference image—then refine the text model output to tighten style or mood.
-- Keep an eye on the thermal monitor; if temps spike, pause generation or swap to the lighter model.
-- For longer video prompts, iterate in smaller chunks to keep responses focused and fast.
+- Use Qwen2.5-VL when you have a reference image—drag and drop the image into the app or upload an image by clicking import image.
 
 ---
 
