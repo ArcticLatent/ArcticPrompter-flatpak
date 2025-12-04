@@ -57,6 +57,13 @@ Arctic Prompter keeps everything on-device: Ollama handles the inference, quanti
 
 ---
 
+## 📁 Download Locations
+
+- When you first launch the app, the Ollama binary automatically downloads and installs to `~/.local/share/arcticprompter/ollama`.
+- LLM models download into `~/.local/share/arcticprompter/ollama/models/blobs`.
+
+---
+
 ## 💡 Usage Tips
 
 - Start with Qwen2.5 for concise prompts; switch to Llama 3.2 when you want more verbose phrasing.
