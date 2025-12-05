@@ -1,6 +1,6 @@
 {
-  "version": "0.4.0",
-  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.4.0/ArcticPrompter.flatpak",
-  "sha256": "cfd5e8a6dd3153a117ffafb2ea982b12b74d190586a40e080de98967d5c7b56b",
-  "notes": "introducing nvml wrapper instead of nvidia-smi"
+  "version": "0.4.1",
+  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.4.1/ArcticPrompter.flatpak",
+  "sha256": "e46c1345df5a04078880970123496851aaa754a2eb53d3e2452f28e3595fb2ab",
+  "notes": "fix for flathub drag and drop image"
 }
