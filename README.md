@@ -23,6 +23,7 @@ Arctic Prompter keeps everything on-device: Ollama handles the inference, quanti
 - 🎬 **Image + video prompt flows** with guidance to keep outputs consistent across modalities.
 - 🌡️ **Thermal monitor** that surfaces CPU/GPU temps so you know when to pause or switch models.
 - 🕒 **Keep-alive toggle** to hold a model in memory for long sessions; turn it off if you’re switching models frequently.
+- 🎚️ **Temperature slider** to dial in prompt variety and control how adventurous or deterministic the LLM responses are.
 - ⚡ **Hardware-friendly defaults**—all bundled models are quantized to run smoothly on most machines.
 
 ---
