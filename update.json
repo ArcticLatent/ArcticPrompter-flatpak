@@ -1,6 +1,6 @@
 {
-  "version": "0.4.1",
-  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.4.1/ArcticPrompter.flatpak",
-  "sha256": "e46c1345df5a04078880970123496851aaa754a2eb53d3e2452f28e3595fb2ab",
-  "notes": "fix for flathub drag and drop image"
+  "version": "0.4.2",
+  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.4.2/ArcticPrompter.flatpak",
+  "sha256": "663d8c6bdac8a93c055f8b08925555cf541052e39f88da75c799879040b98505",
+  "notes": "drag and drop support"
 }
