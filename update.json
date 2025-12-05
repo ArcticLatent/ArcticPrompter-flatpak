@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.1.0/ArcticPrompter.flatpak",
-  "sha256": "2c6f64cfe386fb5fdd28f65bb0c45c63397afda96197380d5eb19a0a6d29d393",
-  "notes": "first release"
+  "version": "0.2.0",
+  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.2.0/ArcticPrompter.flatpak",
+  "sha256": "9e3d8e4bfd2c30d2a4515a3eee3c43516eb3a3c8b34109f4d5a15ef984def7c5",
+  "notes": "new ui enhancements"
 }
