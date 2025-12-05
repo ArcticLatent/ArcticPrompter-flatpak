@@ -1,6 +1,6 @@
 {
-  "version": "0.3.0",
-  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.3.0/ArcticPrompter.flatpak",
-  "sha256": "92a0a6ce347a3d0764a44527318744ab9b792ef2e66ba35c9c4dd67ab9741363",
-  "notes": "improve font rendering and nvidia-smi usage for flatpak"
+  "version": "0.4.0",
+  "download_url": "https://github.com/ArcticLatent/ArcticPrompter-flatpak/releases/download/v0.4.0/ArcticPrompter.flatpak",
+  "sha256": "cfd5e8a6dd3153a117ffafb2ea982b12b74d190586a40e080de98967d5c7b56b",
+  "notes": "introducing nvml wrapper instead of nvidia-smi"
 }
