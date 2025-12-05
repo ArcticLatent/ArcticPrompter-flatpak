@@ -32,7 +32,15 @@ Arctic Prompter keeps everything on-device: Ollama handles the inference, quanti
 1. **Download the latest `.flatpak`** from this repo’s Releases page.
 2. Install it:
    ```bash
-   sudo flatpak install ArcticPrompter.flatpak
+   flatpak install --user ArcticPrompter.flatpak
+   ```
+3. **Optional (for drag-and-drop):** Flatpak sandboxes file access. If you want to drag images from a specific folder into the app, grant read access to that folder:
+   ```bash
+   flatpak override --user --filesystem=/absolute/path/to/folder io.github.ArcticPrompter
+   ```
+   Replace `/absolute/path/to/folder` with the directory you drag files from. For example:
+   ```bash
+   flatpak override --user --filesystem=/home/burce/Pictures io.github.ArcticPrompter
    ```
 
 ---
